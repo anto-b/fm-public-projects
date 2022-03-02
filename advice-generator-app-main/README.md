@@ -6,20 +6,23 @@ This is a solution to the [Advice generator app challenge on Frontend Mentor](ht
 - [Screenshot](#screenshot)
 - [Built with](#built-with)
 - [Author](#author)
+- [Links](#link)
 
 
 
-### Screenshot
+## Screenshot
 
 ![](./screenshots/desktop.png)
 ![](./screenshots/mobile.png)
 
-### Built with
+## Built with
 
 - Semantic HTML5 markup
 - CSS3
 - JS / ES6
 
+## Link
+- preview project: [Advice app](https://anto-b.github.io/fm-public-projects/advice-generator-app-main/)
 
 ## Author
 
