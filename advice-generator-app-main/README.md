@@ -22,9 +22,9 @@ This is a solution to the [Advice generator app challenge on Frontend Mentor](ht
 - JS / ES6
 
 ## Link
-- preview project: [Advice app](https://anto-b.github.io/fm-public-projects/advice-generator-app-main/)
+- Preview project: [Advice app](https://anto-b.github.io/fm-public-projects/advice-generator-app-main/)
 
 ## Author
 
-- Website - [anto-b]
+- Website - [anto-b](https://github.com/anto-b)
 - Frontend Mentor - [@anto-b](https://www.frontendmentor.io/profile/anto-b)
