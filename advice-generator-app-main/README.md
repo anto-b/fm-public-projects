@@ -4,7 +4,6 @@ This is a solution to the [Advice generator app challenge on Frontend Mentor](ht
 
 ## Table of contents
 - [Screenshot](#screenshot)
-- [Links](#links)
 - [Built with](#built-with)
 - [Author](#author)
 
@@ -14,11 +13,6 @@ This is a solution to the [Advice generator app challenge on Frontend Mentor](ht
 
 ![](./screenshots/desktop.png)
 ![](./screenshots/mobile.png)
-
-### Links
-
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-
 
 ### Built with
 
