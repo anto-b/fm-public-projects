@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@600;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(218, 23%, 16%);
+}
+
+#advBox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 325px;
+    width: 525px;
+    background-color: hsl(217, 19%, 24%);
+    border-radius: 12px;
+    user-select: none;
+}
+
+#divider {
+    width: 444px;
+    height: 16px;
+    position: absolute;
+    left: 50%;
+    bottom: 80px;
+    transform: translateX(-50%);
+    background: url(images/pattern-divider-desktop.svg);
+    background-size: 444px 16px;
+}
+
+#advBtn {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: hsl(150, 100%, 66%);
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%) translateY(50%);
+    transition: box-shadow .5s ease;
+}
+
+#advBtn:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 30px hsl(150, 100%, 66%);
+}
+
+#quoteBox {
+    color: hsl(193, 38%, 86%);
+    font-size: 28px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800;
+    padding: 0 10px;
+    text-align: center;
+}
+
+#idBox{
+    margin: 35px 0px;
+    color: hsl(150, 100%, 66%);
+    font-family: 'Manrope', sans-serif;
+    font-weight: 600;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 12px;
+}
+
+#dice {
+    /* dice svg */
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media  (max-width: 575px){
+    #advBox{
+        height: 350px;
+        width: 340px;
+    }
+
+    #divider{
+        width: 295px;
+        height: 16px;
+        bottom: 68px;
+        background: url(images/pattern-divider-mobile.svg);
+        background-size: 295px 16px;
+    }
+
+    #advBtn{
+        width: 70px;
+        height: 70px;
+    }
+}
