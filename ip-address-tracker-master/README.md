@@ -7,6 +7,10 @@ This is a solution to the [IP address tracker challenge on Frontend Mentor](http
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
+    -Desktop
+    -Ultra wide desktop
+    -Mobile
+    -Tablet
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -27,19 +31,21 @@ Users should be able to:
 - Search for any IP addresses or domains and see the key information and location
 
 ### Screenshot
+###### Desktop:
+![](./screenshots/desktop.png)     
 
-####Desktop:
-![](./screenshots/desktop.png)
-####Ultra wide desktop:
-![](./screenshots/ultra-wide-desktop.png)
-####Mobile:
-![](./screenshots/mobile.png)
-####Tablet:
+###### Ultra wide desktop:  
+![](./screenshots/ultra-wide-desktop.png)    
+
+###### Mobile:
+![](./screenshots/mobile.png)    
+
+###### Tablet:
 ![](./screenshots/tablet.png)
 
 ### Links
 
-- Solution URL: [IP tracker](https://your-solution-url.com)
+- Solution URL: [IP tracker](https://github.com/anto-b/fm-public-projects/tree/main/ip-address-tracker-master)
 - Live Site URL: [IP tracker](https://anto-b.github.io/fm-public-projects/ip-address-tracker-master/)
 
 ## My process
