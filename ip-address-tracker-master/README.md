@@ -8,9 +8,9 @@ This is a solution to the [IP address tracker challenge on Frontend Mentor](http
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)    
     - [Desktop](#desktop)    
-    - Ultra wide desktop    
-    - Mobile   
-    - Tablet    
+    - [Ultra wide desktop](#ultra-wide-desktop)    
+    - [Mobile](#mobile)      
+    - [Tablet](#tablet)    
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
