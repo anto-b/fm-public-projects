@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+
+  <title>IP Address Tracker | Frontend Mentor x ABTechnologies</title>
+
+  <!-- leafletJS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+    crossorigin="" />
+  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+    integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+    crossorigin=""></script>
+</head>
+
+<body>
+
+  <div id="head-cntr">
+
+    <div id="src-cntr">
+      <p id="title">IP Address Tracker</p>
+      <div id="src-box">
+        <input type="text" id="src-vl" placeholder="Search for any IP address or domain">
+        <div id="src-btn">
+          <svg id="src-icon" xmlns="http://www.w3.org/2000/svg" width="11" height="14">
+            <path fill="none" stroke="#FFF" stroke-width="3" d="M2 1l6 6-6 6" />
+          </svg>
+        </div>
+      </div>
+    </div>
+
+    <div id="info-cntr">
+      <div class="info-box">
+        <p class="info-title">ip address</p>
+        <p class="info-value">192.212.174.101</p>
+      </div>
+      <div class="info-box">
+        <div class="separator l-sep"></div>
+        <p class="info-title">location</p>
+        <p class="info-value">Brooklyn,NY 10001</p>
+        <div class="separator r-sep"></div>
+      </div>
+      <div class="info-box">
+        <p class="info-title">timezone</p>
+        <p class="info-value">UTC -05:00</p>
+        <div class="separator r-sep"></div>
+      </div>
+      <div class="info-box">
+        <p class="info-title">isp</p>
+        <p class="info-value">SpaceX Starlink</p>
+      </div>
+    </div>
+
+  </div>
+
+  <div id="map"></div>
+  <script src="main.js"></script>
+</body>
+
+</html>
