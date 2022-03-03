@@ -186,6 +186,7 @@ body {
 @media (max-width: 450px) {
     #head-cntr {
         height: 30%;
+        min-height: 200px;
     }
 
     #src-cntr {
