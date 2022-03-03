@@ -8,7 +8,7 @@ const inptEl = document.getElementById("src-vl");
 
 /* setting the icon for the marker in the map */
 const myIcon = L.icon({
-    iconUrl: '../images/icon-location.svg',
+    iconUrl: './images/icon-location.svg',
     iconSize: [40, 40],
     iconAnchor: [20, 40],
     popupAnchor: [0, -95],
