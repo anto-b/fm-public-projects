@@ -6,11 +6,11 @@ This is a solution to the [IP address tracker challenge on Frontend Mentor](http
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-    -Desktop
-    -Ultra wide desktop
-    -Mobile
-    -Tablet
+  - [Screenshot](#screenshot)    
+    -Desktop    
+    -Ultra wide desktop    
+    -Mobile   
+    -Tablet    
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
