@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+/* IMPORTANT!!! For moving and scaling the smartophone only change the classe below! */
+.move-scale-smartphone{
+    /* 
+    DEFAULT VALUES:
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(100%); */
+    position: fixed;
+    top: 100px;
+    left: 368px;
+    transform: scale(80%);
+}
+/* -------------------------------------------------------------------------------- */
+
+
+.smartphone-ext-cntr {
+    /* position: absolute; */
+
+    height: 800px;
+    width: 400px;
+    background-color: hsl(0, 0%, 100%);
+
+    padding: 14px;
+
+    border-radius: 40px;
+    box-shadow: 12px 15px 20px 5px hsl(0deg 0% 75%);
+}
+
+.smartphone-inn-cntr {
+    height: 100%;
+    width: 100%;
+    border-radius: inherit;
+
+    background-color: hsl(270, 20%, 96%);
+}
+
+.top-banner {
+    position: relative;
+
+    width: 100%;
+    height: 15%;
+    border-radius: 40px 40px 12px 10px;
+    background: rgb(136, 56, 255);
+    background: linear-gradient(90deg, rgba(136, 56, 255, 1) 0%, rgba(233, 66, 255, 1) 100%);
+}
+
+.notch {
+    position: absolute;
+    top: -4px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60%;
+    height: 28%;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 0 0 22px 22px;
+}
+
+.info-cntr {
+    position: absolute;
+    bottom: 12%;
+    width: 100%;
+    height: 45%;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+}
+
+.left-arrow {
+    height: 80%;
+    width: 5%;
+    background: url(./images/left-arrow.svg);
+    background-size: 135%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 5px;
+}
+
+.us-pic-outline {
+    position: relative;
+    height: 80%;
+    width: 12%;
+    border-radius: 50%;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.us-pic {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 88%;
+    width: 88%;
+    border-radius: inherit;
+    background-color: hsl(0, 0%, 100%);
+    overflow: hidden;
+}
+
+.us-pic img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.us-info {
+    height: 100%;
+    width: 75%;
+    padding: 5px 15px;
+}
+
+.name {
+    color: hsl(276, 100%, 92%);
+    font-weight: 700;
+    letter-spacing: .5px;
+    font-size: 22px;
+}
+
+.status {
+    color: hsl(276, 100%, 81%);
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.dots-menu {
+    height: 80%;
+    width: 5%;
+    background: url(./images/three-dots.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 5px;
+}
+
+.chat-cntr {
+    position: relative;
+    width: 100%;
+    height: 72%;
+    padding: 15px;
+}
+
+.message {
+    display: inline-block;
+    width: auto;
+    max-width: 68%;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 8px 0;
+}
+
+.message:first-child {
+    margin-top: 0;
+}
+
+.message:last-child {
+    margin-bottom: 0;
+}
+
+.left-al {
+    border-radius: 12px 12px 12px 4px;
+    background-color: hsl(275, 30%, 92%);
+    color: hsl(276, 55%, 52%);
+    clear: right;
+}
+
+.right-al {
+    border-radius: 12px 12px 4px 12px;
+    color: hsl(271, 15%, 43%);
+    background-color: hsl(0, 0%, 100%);
+    float: right;
+    box-shadow: 6px 5px 8px hsl(0deg 0% 90%);
+}
+
+.w-photos {
+    padding: 0;
+    height: 12%;
+    width: 70%;
+    max-width: 70%;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: none;
+}
+
+.photo {
+    height: 100%;
+    width: calc(90% / 3);
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.photo img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.w-gradient {
+    width: 75%;
+    height: 10%;
+    min-width: 75%;
+    min-height: 10%;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    color: hsl(275, 100%, 90%);
+    background: rgb(233, 66, 255);
+    background: linear-gradient(90deg, rgba(233, 66, 255, 1) 0%, rgba(136, 56, 255, 1) 100%);
+}
+
+.radio-btn {
+    height: 60%;
+    width: 20%;
+    background: url(./images/circle.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.price {
+    font-size: 18px;
+    font-weight: 700;
+    color: hsl(270, 20%, 96%);
+    margin: 0 10px 0 auto;
+}
+
+.type-cntr {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 5%;
+    height: 6%;
+    border-radius: 30px;
+    width: 89%;
+    background-color: hsl(0, 0%, 100%);
+    overflow: hidden;
+}
+
+.type-inpt {
+    height: 100%;
+    width: 100%;
+    border: none;
+    padding: 0 25px;
+}
+
+.type-inpt:focus {
+    outline: none;
+}
+
+.type-inpt::placeholder {
+    color: hsl(206, 6%, 79%);
+}
+
+.send-btn {
+    position: absolute;
+    top: 50%;
+    right: 2%;
+    transform: translateY(-50%);
+    height: 75%;
+    width: 11%;
+    border-radius: 50%;
+    background-color: hsl(271, 36%, 24%);
+}
+
+.send-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 60%;
+    width: 60%;
+    background: url(./images/right-arrow.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* specific media query, delete this in your project */
+@media (max-width: 1420px) {
+    .move-scale-smartphone{
+        /* 
+        DEFAULT VALUES:
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) scale(100%); */
+        position: fixed;
+        top: 0px;
+        left: 365px;
+        transform: scale(75%);
+    }
+}
+
+@media (max-width: 1000px) {
+    .move-scale-smartphone{
+        position: absolute;
+        top: -15%;
+        left: 50%;
+        transform: translateX(-50%) scale(60%); 
+    }
+}
+
+@media (max-height: 800px) {
+    .move-scale-smartphone{
+        top: -25%;
+        transform: translateX(-50%) scale(45%); 
+    }
+}
+
+@media (max-height: 670px) {
+    .move-scale-smartphone{
+        top: -35%;
+        transform: translateX(-50%) scale(35%); 
+    }
+}
