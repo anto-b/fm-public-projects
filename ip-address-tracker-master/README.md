@@ -6,7 +6,7 @@ This is a solution to the [IP address tracker challenge on Frontend Mentor](http
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)    
+  - [Screenshots](#screenshot)    
     - [Desktop](#desktop)    
     - [Ultra wide desktop](#ultra-wide-desktop)    
     - [Mobile](#mobile)      
@@ -30,18 +30,37 @@ Users should be able to:
 - (additional) Click on the marker and see latitude and longitude
 - Search for any IP addresses or domains and see the key information and location
 
-### Screenshot
-###### Desktop:
-![](./screenshots/desktop.png)     
+### Screenshots
 
-###### Ultra wide desktop:  
-![](./screenshots/ultra-wide-desktop.png)    
+<br>
 
-###### Mobile:
-![](./screenshots/mobile.png)    
+<div align="center">
+    <img src="https://user-images.githubusercontent.com/100710168/179496738-f0b75a54-92bd-465c-8630-772674495de7.png" alt="Desktop view screenshot">
+    <p>Desktop View</p>
+</div>
 
-###### Tablet:
-![](./screenshots/tablet.png)
+<br>
+
+<div align="center">
+    <img src="https://user-images.githubusercontent.com/100710168/179496889-75469724-eb29-4a82-af89-f7a738f06cd4.png" alt="Mobile view screenshot">
+    <p>Mobile View</p>
+</div>
+
+<br>
+
+<div align="center">
+    <img src="https://user-images.githubusercontent.com/100710168/179497004-5043e5f7-1105-4b01-951f-8dd592de6193.png" alt="Tablet view screenshot">
+    <p>Tablet View</p>
+</div>
+
+<br>
+
+<div align="center">
+    <img src="https://user-images.githubusercontent.com/100710168/179497059-6c995269-a820-456d-8010-3f98c870b747.png" alt="Ultra Wide Desktop view screenshot">
+    <p>Ultra Wide Desktop View</p>
+</div>
+
+<br>
 
 ### Links
 

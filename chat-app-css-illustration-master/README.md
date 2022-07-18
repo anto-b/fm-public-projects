@@ -6,7 +6,7 @@ This is a solution to the [Chat app CSS illustration challenge on Frontend Mento
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
+  - [ScreenshotS](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -20,16 +20,30 @@ This is a solution to the [Chat app CSS illustration challenge on Frontend Mento
 Users should be able to:
 - View the optimal layout for the component depending on their device's screen size
 
-### Screenshot
+### Screenshots
 
-###### Desktop
-![](./screenshots/desktop1.png)
-![](./screenshots/desktop2.png)
-###### Mobile
-![](./screenshots/mobile.png)
-###### Tablet
-![](./screenshots/tablet.png)
+<br>
 
+<div align="center">
+    <img src="https://user-images.githubusercontent.com/100710168/179497238-1a17cc58-6c91-40a9-bd17-8962af057218.png" alt="Desktop view screenshot">
+    <p>Desktop View</p>
+</div>
+
+<br>
+
+<div align="center">
+    <img src="https://user-images.githubusercontent.com/100710168/179497286-4daff58a-0a5e-492d-b0d1-c619ae87d52d.png" alt="Mobile view screenshot">
+    <p>Mobile View</p>
+</div>
+
+<br>
+
+<div align="center">
+    <img src="https://user-images.githubusercontent.com/100710168/179497394-c83050a4-7cc9-4749-a790-a3e6f0605dcb.png" alt="Tablet view screenshot">
+    <p>Tablet View</p>
+</div>
+
+<br>
 
 ### Links
 - Solution URL: [Chat App Illustration](https://github.com/anto-b/fm-public-projects/tree/main/chat-app-css-illustration-master)
